@@ -5,6 +5,7 @@ import About from "./pages/About";
 import Product from "./pages/Product";
 import PageNotFount from "./components/PageNotFount";
 import AppLayout from "./pages/AppLayout";
+import Login from "./pages/Login";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path='about' element={<About />} />
           <Route path='product' element={<Product />} />
           <Route path='app' element={<AppLayout />} />
+          <Route path='login' element={<Login />} />
           <Route path='*' element={<PageNotFount />} />
         </Routes>
       </BrowserRouter>
