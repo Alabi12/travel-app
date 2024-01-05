@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import PageNav from "../components/PageNav";
 
 function Product() {
   return (
-    <div>Product</div>
-  )
+    <>
+      <PageNav />
+      <div>Product</div>
+    </>
+  );
 }
 
-export default Product
+export default Product;
