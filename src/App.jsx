@@ -1,10 +1,10 @@
-import "./App.css";
+
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Product from "./pages/Product";
 import PageNotFount from "./components/PageNotFount";
-import PageNav from "./components/PageNav";
+import AppLayout from "./pages/AppLayout";
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='about' element={<About />} />
           <Route path='product' element={<Product />} />
+          <Route path='app' element={<AppLayout />} />
           <Route path='*' element={<PageNotFount />} />
         </Routes>
       </BrowserRouter>

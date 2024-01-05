@@ -1,11 +1,11 @@
-import React from "react";
+
 import PageNav from "../components/PageNav";
 
 function Home() {
   return (
     <>
       <PageNav />
-      <div>The Home Page</div>;
+      <h1 className="test">The Home Page</h1>
     </>
   );
 }
