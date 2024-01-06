@@ -8,6 +8,7 @@ import Login from "./pages/Login";
 import { useEffect, useState } from "react";
 import CitiesList from "./pages/CitiesList";
 import PageNotFound from "./components/PageNotFound";
+import CountryList from "./components/CountryList";
 
 function App() {
   const [cities, setCities] = useState([]);
@@ -47,7 +48,7 @@ function App() {
           <Route path='app' element={<AppLayout />}>
             <Route index element={<CitiesList cities={cities} loading={loading} />} />
             <Route path="cities" element={<CitiesList cities={cities} loading={loading} />} />
-            <Route path="countries" element={<div>Countries List</div>} />
+            <Route path="countries" element={<CountryList  cities={cities} loading={loading} />}/>
           </Route>
           <Route path='login' element={<Login />} />
           <Route path='*' element={<PageNotFound />} />
