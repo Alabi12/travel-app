@@ -2,6 +2,7 @@ import PropTypes from 'prop-types';
 import Loader from '../components/loader';
 import CityItem from '../components/CityItem';
 import Message from '../components/Message';
+import styles from './CitiesList.module.css'
 
 function CitiesList({ cities, loading }) {
   CitiesList.propTypes = {
@@ -14,7 +15,7 @@ function CitiesList({ cities, loading }) {
   if (!cities.length) return <Message message={"Cities data is not available"} />;
 
   return (
-    <div>
+    <div className={styles.cityList}>
       {cities.map((city) => (
         <CityItem city={city} key={city.name} />
       ))}
