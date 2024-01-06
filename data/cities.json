@@ -1,0 +1,49 @@
+{
+    "cities": [
+      {
+        "id": 1,
+        "name": "New York",
+        "country": "United States",
+        "latitude": 40.7128,
+        "longitude": -74.006,
+        "emoji_flag": "🇺🇸",
+        "date": "2023-12-02"
+      },
+      {
+        "id": 2,
+        "name": "Los Angeles",
+        "country": "United States",
+        "latitude": 34.0522,
+        "longitude": -118.2437,
+        "emoji_flag": "🇺🇸",
+        "date": "2023-12-02"
+      },
+      {
+        "id": 3,
+        "name": "London",
+        "country": "United Kingdom",
+        "latitude": 51.5074,
+        "longitude": -0.1278,
+        "emoji_flag": "🇬🇧",
+        "date": "2023-12-02"
+      },
+      {
+        "id": 4,
+        "name": "Tokyo",
+        "country": "Japan",
+        "latitude": 35.6895,
+        "longitude": 139.6917,
+        "emoji_flag": "🇯🇵",
+        "date": "2023-12-02"
+      },
+      {
+        "id": 5,
+        "name": "Sydney",
+        "country": "Australia",
+        "latitude": -33.8688,
+        "longitude": 151.2093,
+        "emoji_flag": "🇦🇺",
+        "date": "2023-12-02"
+      }
+    ]
+  }
