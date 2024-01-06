@@ -1,7 +1,7 @@
 import PageNav from "./PageNav";
 
 
-function PageNotFount() {
+function PageNotFound() {
   return (
     <>
       <PageNav />
@@ -10,4 +10,4 @@ function PageNotFount() {
   );
 }
 
-export default PageNotFount;
+export default PageNotFound;
