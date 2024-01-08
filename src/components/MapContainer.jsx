@@ -1,13 +1,16 @@
-import { useSearchParams } from "react-router-dom";
+import { useNavigate, useSearchParams } from "react-router-dom";
 function MapContainer() {
-
+  const navigate = useNavigate();
   const [searchParams, setSearchParams] = useSearchParams();
   const latitude = searchParams.get('lat');
   const longitude = searchParams.get('long');
-  console.log(latitude);
-  console.log(longitude);
+
+
+  function showForm(){
+    navigate('/app/addcity');
+  }
   return (
-    <div>
+    <div onClick={showForm}>
       lat: {latitude}
       long: {longitude}
 

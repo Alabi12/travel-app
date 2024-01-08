@@ -1,0 +1,14 @@
+.addCityContainer {
+    text-align: left;
+    margin: auto;
+    width: 200;
+}
+
+.buttons {
+    justify-content: space-between;
+}
+
+.addCityContainer input, 
+.addCityContainer textarea {
+    width: 100%;
+}
